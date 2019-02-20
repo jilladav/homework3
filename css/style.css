@@ -1,13 +1,21 @@
 nav {
 	display: flex;
 	justify-content: center;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+	margin-bottom: 2.5vh;
+	background-color: #424242;
+}
+
+footer {
 	margin-top: 5vh;
-	margin-bottom: 5vh;
+	background-color: #424242;
+	color:#357CA3;
 }
 
 nav a {
 	text-decoration: none;
-	color:#9400D3;
+	color:#357CA3;
 	font-family:sans-serif;
 	margin: 5vw;
 }
@@ -15,7 +23,12 @@ nav a {
 
 nav li {
 	text-decoration: none;
-	display:inline;
+	display: inline;
+}
+
+.consulting ul {
+	line-height: 1.5em;
+	margin-bottom: 2vh;
 }
 
 a {
@@ -40,13 +53,6 @@ body {
 	font-size: 18px;
 }
 
-footer {
-	display: grid;
-	grid-template-rows: auto auto auto;
-	justify-content: start;
-	margin-top: 5vh;
-	margin-left: 5vw;
-}
 
 h1 {
 	display: flex;
@@ -55,6 +61,7 @@ h1 {
 	font-size: 60px;
 	text-transform: uppercase;
 	margin-bottom: 5vw;
+	color:#357CA3;
 }
 
 h2 {
@@ -62,14 +69,16 @@ h2 {
 	text-transform: uppercase;
 	margin-bottom: 2.5vh;
 	margin-top: 2.5vh;
+	color:#357CA3;
+	text-align: center;
 }
 
 p {
+	text-align: center;
 	line-height: 1.5em;
 }
 
 .current{
-	text-transform: uppercase;
 	text-decoration: underline;
 }
 
@@ -164,8 +173,7 @@ p {
 }
 
 
-
 .fa-linkedin {
-	color: black;
+	color: #357CA3;
 }
 
