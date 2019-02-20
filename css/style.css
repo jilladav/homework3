@@ -1,0 +1,171 @@
+nav {
+	display: flex;
+	justify-content: center;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
+
+nav a {
+	text-decoration: none;
+	color:#9400D3;
+	font-family:sans-serif;
+	margin: 5vw;
+}
+
+
+nav li {
+	text-decoration: none;
+	display:inline;
+}
+
+a {
+	text-decoration: none;
+}
+
+a.skip{
+	padding:10px;
+	text-decoration: none;
+	position: relative;
+    top: -80px;
+}
+
+a.skip:focus{
+	background: white;
+	top: 10px;
+	border: 1px solid black;
+}
+
+body {
+	font-family: 'Open Sans';
+	font-size: 18px;
+}
+
+footer {
+	display: grid;
+	grid-template-rows: auto auto auto;
+	justify-content: start;
+	margin-top: 5vh;
+	margin-left: 5vw;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-size: 60px;
+	text-transform: uppercase;
+	margin-bottom: 5vw;
+}
+
+h2 {
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-bottom: 2.5vh;
+	margin-top: 2.5vh;
+}
+
+p {
+	line-height: 1.5em;
+}
+
+.current{
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+
+.personas {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-row: 1fr 1fr;
+	justify-content: start;
+}
+
+.storymap {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-content: center;
+}
+.item p {
+	height: 100%;
+	width: 100%;
+}
+
+.item img {
+	width: 50%;
+	margin-bottom: 2.5vh;
+}
+
+.item .personas img {
+	width: 100%;
+	display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.item .storymap img {
+	width: 100%;
+	display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.interaction img {
+	width: 75vw;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 5vw;
+	margin-left: 5vw;
+}
+
+.item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+@media screen and (min-width:700px) {
+
+	h1 {
+		margin-bottom: 2.5vw;
+	}
+
+	.item {
+		display: grid;
+		grid-template-columns: auto auto;
+		align-items: start;
+		margin-bottom: 2.5vh;
+	}
+
+	.item img {
+		width: 90%;
+	}
+
+	.home img {
+		width: 30vh;
+		margin-right: 2.5vh;
+	}
+
+	.home p {
+		display: grid;
+		align-items: center;
+	}
+
+	.content {
+		display: grid;
+		align-items: flex-start;
+	}
+	
+}
+
+
+
+.fa-linkedin {
+	color: black;
+}
+
