@@ -4,14 +4,15 @@ nav {
 	padding-top: 5vh;
 	padding-bottom: 5vh;
 	margin-bottom: 2.5vh;
-	background-color: #424242;
+	background-color: #929292;
 	top: -20px;
 	position: relative;
+	background-image: url("../images/navbackground.jpg");
 }
 
 footer {
 	margin-top: 5vh;
-	background-color: #424242;
+	background-color: #929292;
 	color:#357CA3;
 }
 
