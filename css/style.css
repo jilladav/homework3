@@ -140,6 +140,10 @@ p {
 	margin-bottom: 2.5vh;
 }
 
+.interaction .item img {
+	width: 75vw;
+}
+
 .item .personas img {
 	width: 100%;
 	display:flex;
@@ -161,6 +165,7 @@ p {
 .consulting img {
 	width: 75vw;
 }
+
 
 .content {
 	display: flex;
