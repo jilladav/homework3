@@ -1,19 +1,38 @@
+
 nav {
 	display: flex;
 	justify-content: center;
 	padding-top: 5vh;
 	padding-bottom: 5vh;
 	margin-bottom: 2.5vh;
-	background-color: #929292;
-	top: -20px;
+	font-size: 20px;
+	/*background-color: #929292;*/
+	top: -3vh;
 	position: relative;
-	background-image: url("../images/navbackground.jpg");
+	border-bottom: 0.5vh solid #357CA3;
+}
+
+a.skip{
+	padding:1px;
+	text-decoration: none;
+	position: relative;
+    top: -80px;
+}
+
+a.skip:focus{
+	position: relative;
+	background-color: white;
+	top: 7.5px;
+	border: 1px solid black;
 }
 
 footer {
 	margin-top: 5vh;
 	background-color: #929292;
 	color:#357CA3;
+	border-top: 0.5vh solid #357CA3;
+	background-image: url("../images/background.jpg");
+	color:black;
 }
 
 nav a {
@@ -21,6 +40,12 @@ nav a {
 	color:#357CA3;
 	font-family:sans-serif;
 	margin: 5vw;
+}
+
+.home a {
+	text-decoration: underline;
+	color: #357CA3;
+	font-weight: bold;
 }
 
 
@@ -34,21 +59,28 @@ nav li {
 	margin-bottom: 2vh;
 }
 
+/*.consultingtitle {
+	background-image: url("../images/affinity.jpg");
+}
+
+.consultingtitle h1{
+	color: black;
+}*/
+
+/*.about {
+	background-image: url("../images/michigan.jpeg");
+}
+
+.about p {
+	background-color: white;
+}
+
+.about h2{
+	background-color: white;
+}*/
+
 a {
 	text-decoration: none;
-}
-
-a.skip{
-	padding:10px;
-	text-decoration: none;
-	position: relative;
-    top: -80px;
-}
-
-a.skip:focus{
-	background: white;
-	top: 10px;
-	border: 1px solid black;
 }
 
 body {
@@ -188,6 +220,7 @@ p {
 
 
 .fa-linkedin {
-	color: #357CA3;
+	/*color: #357CA3;*/
+	color: black;
 }
 
